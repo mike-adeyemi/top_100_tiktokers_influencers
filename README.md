@@ -349,8 +349,131 @@ HAVING COUNT(*) > 1;
 
 ## Results
 - What does the dashboard look like?
-[TikTok Influencer Analysis.pdf](https://github.com/user-attachments/files/18900081/TikTok.Influencer.Analysis.pdf)
+
+https://github.com/user-attachments/assets/2ee2752f-a72d-467c-8f79-dafa962d3213
 
 This shows the Top UK Youtubers in 2024 so far.
 
 # DAX Measures
+
+### 1. Total Subscribers (M)
+
+```sql
+
+Total Followers (M) = 
+VAR million = 1000000
+VAR sumOfFollowers = SUM(view_tiktokers_2025[total_followers])
+VAR totalFollowers = DIVIDE(sumOfFollowers,million)
+
+RETURN totalFollowers
+````
+### 2. Total Likes (B)
+```sql
+Total Likes (B) = 
+VAR billion = 1000000000
+VAR sumOfTotalLikes = SUM(view_tiktokers_2025[total_likes])
+VAR totalLikes = ROUND(sumOfTotalLikes / billion, 2)
+
+RETURN totalLikes
+```
+### Total Uploads
+```sql
+Total Uploads = 
+VAR totalUploads = SUM(view_tiktokers_2025[total_uploads])
+
+RETURN totalUploads
+```
+#### Average Likes per Upload (M)
+```sql
+Average Likes per Upload (M) = 
+VAR sumOfTotalLikes = SUM(view_tiktokers_2025[total_likes])
+VAR sumOfTotalUploads = SUM(view_tiktokers_2025[total_uploads])
+VAR  avgLikesPerUpload = DIVIDE(sumOfTotalLikes,sumOfTotalUploads, BLANK())
+VAR finalAvgLikesPerUpload = DIVIDE(avgLikesPerUpload, 1000000, BLANK())
+
+RETURN finalAvgLikesPerUpload
+```
+#### Followers Engagement Rate
+```sql
+Followers Engagement Rate = 
+VAR sumOfTotalFollowers = SUM(view_tiktokers_2025[total_followers])
+VAR sumOfTotalUploads = SUM(view_tiktokers_2025[total_uploads])
+VAR followersEngRate = DIVIDE(sumOfTotalFollowers, sumOfTotalUploads, BLANK())
+
+RETURN followersEngRate
+```
+#### Likes Per Follower
+```sql
+Likes Per Follower = 
+VAR sumOfTotalLikes = SUM(view_tiktokers_2025[total_likes])
+VAR sumOfTotalFollowers = SUM(view_tiktokers_2025[total_followers])
+VAR likePerFollower = DIVIDE(sumOfTotalLikes, sumOfTotalFollowers, BLANK())
+
+RETURN likePerFollower 
+```
+# Analysis
+## Findings
+
+- What did we find?
+
+For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
+
+Here are the key questions we need to answer for our marketing client:
+
+1. Who are the top 10 YouTubers with the most subscribers?
+2. Which 3 channels have uploaded the most videos?
+3. Which 3 channels have the most views?
+4. Which 3 channels have the highest average views per video?
+5. Which 3 channels have the highest views per subscriber ratio?
+6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
+### 1. Who are the top 10 YouTubers with the most subscribers?
+
+|Rank|	Channel Name	|Subscribers (M)|
+|----|--------|------|
+|1	|NoCopyrightSounds|	33.60|
+|2	|DanTDM	|28.60|
+|3|	Dan Rhodes|	26.50|
+|4|	Miss Katy	|24.50|
+|5|	Mister| Max	|24.40|
+|6|	KSI	|24.10|
+|7|	Jelly|	23.50|
+|8|	Dua Lipa	|23.30|
+|9|	Sidemen	|21.00|
+|10	|Ali-A	|18.90|
+
+### 2. Which 3 channels have uploaded the most videos?
+|Rank|	Channel Name|	Videos Uploaded|
+|-------|--|--|
+|1	|GRM Daily	|14,696|
+|2	|Manchester City	|8,248|
+|3	|Yogscast|	6,435|
+
+### 4. Which 3 channels have the most views?
+|Rank	|Channel Name	|Total Views (B)|
+|-|-|-|
+|1|	DanTDM	|19.78|
+|2	|Dan Rhodes	|18.56|
+|3	|Mister Max	|15.97|
+
+### 5. Which 3 channels have the highest average views per video?
+|Channel Name	|Averge Views per Video (M)|
+|-|-|
+|Mark Ronson	|32.27|
+|Jessie J	|5.97|
+|Dua Lipa|	5.76|
+
+### 7. Which 3 channels have the highest views per subscriber ratio?
+|Rank	|Channel Name|	Views per Subscriber|
+|-|-|-|
+|1	|GRM Daily	|1185.79|
+|2|	Nickelodeon	|1061.04|
+|3|	Disney Junior UK|	1031.97|
+
+### 9. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+|Rank|	Channel Name|	Subscriber Engagement Rate|
+|1|	Mark Ronson|	343,000|
+|-|-|-|
+|2|	Jessie J|	110,416.67|
+|3	|Dua Lipa|	104,954.95|
+
