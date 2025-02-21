@@ -477,3 +477,20 @@ Here are the key questions we need to answer for our marketing client:
 |2|	Jessie J|	110,416.67|
 |3	|Dua Lipa|	104,954.95|
 
+### Notes
+
+For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client, which are the YouTube channels wuth the most
+
+- subscribers
+- total views
+- videos uploaded
+
+## Validation
+
+### 1. Tiktokers influencers with the most Followers Analysis
+
+#### Calculation breakdown
+
+Campaign idea = product placement
+
+1. Jason Derulo
