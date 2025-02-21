@@ -1,7 +1,7 @@
 # Data Portfolio: Excel to Power BI
 
+![Excel-powerbi](https://github.com/user-attachments/assets/26a6c103-cf75-4ae9-86d4-7f29529f7018)
 
-![kaggle_to_powerbi](https://github.com/user-attachments/assets/e009bd3e-f886-413a-ab99-8a4df0698ce0)
 
 # Table of contents
 
