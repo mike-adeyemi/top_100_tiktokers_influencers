@@ -254,3 +254,59 @@ SET
 LTRIM(RTRIM(REPLACE(REPLACE(Username, '?', ''), ' ', ' ')));
 
 ```
+
+# Testing
+- What data quality and validation checks are you going to create?
+Here are the data quality tests conducted:
+
+## Row count check
+
+```sql
+/*
+1. Count the total number of records (or rows) are in the SQL view		
+*/
+
+SELECT 
+    COUNT(*)
+as 
+ no_of_rows
+FROM 
+   view_tiktokers_2025;
+
+```
+![row_count_check](https://github.com/user-attachments/assets/5d80bded-4881-45bd-aee7-83c9ff9a8a0b)
+
+## Column count check
+
+### SQL query
+
+```sql
+/*
+2. Count the total number of columns (or fields) are in the SQL view	
+*/
+
+SELECT 
+   COUNT(*)
+as column_count
+FROM 
+   INFORMATION_SCHEMA.COLUMNS
+WHERE 
+   TABLE_NAME = 'view_tiktokers_2025';
+
+```
+
+![column_count_test](https://github.com/user-attachments/assets/933e12d0-07d5-4d2e-a00f-ff99021e433f)
+
+## Data type check
+
+### SQL query
+
+
+
+
+
+
+
+
+
+
