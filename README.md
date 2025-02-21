@@ -300,13 +300,57 @@ WHERE
 ## Data type check
 
 ### SQL query
+```sql
+/*
+The username column must be in string format and others columns must be numerical data types (data types check)
+*/
 
+-- 3. Data types check
 
+SELECT 
+COLUMN_NAME,
+DATA_TYPE 
+FROM 
+   INFORMATION_SCHEMA.COLUMNS
+WHERE 
+   TABLE_NAME = 'view_tiktokers_2025';
 
+```
 
+### Output
+![data_type_check](https://github.com/user-attachments/assets/9b16c8c3-f96f-4306-8933-f738a3f5b530)
 
+## Duplicate count check
 
+### SQL query
+```sql
+/*
 
+# Data Quality tests
 
+4. Each records must be unique in the dataset (duplicate count check)
 
+*/
 
+--		4. Duplicate records count 
+SELECT Username,
+COUNT(*) as duplicate_count
+FROM 
+  view_tiktokers_2025
+GROUP BYUsername
+HAVING COUNT(*) > 1;
+
+```
+
+### Output
+![duplicate_count_check](https://github.com/user-attachments/assets/c16c8ee7-b148-41d0-bfaa-27e04c3fb19a)
+
+# Visualization
+
+## Results
+- What does the dashboard look like?
+[TikTok Influencer Analysis.pdf](https://github.com/user-attachments/files/18900081/TikTok.Influencer.Analysis.pdf)
+
+This shows the Top UK Youtubers in 2024 so far.
+
+# DAX Measures
