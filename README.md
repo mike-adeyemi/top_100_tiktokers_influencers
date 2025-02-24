@@ -1,4 +1,4 @@
-# Data Portfolio: Excel to Power BI
+![image](https://github.com/user-attachments/assets/95bda5d1-105a-47d7-b1ea-0a9bb8335202)# Data Portfolio: Excel to Power BI
 
 ![Excel-powerbi](https://github.com/user-attachments/assets/fe395991-04a7-415b-9741-456f153952d9)
 
@@ -744,3 +744,15 @@ FROM
 
 ##### Output
 ![total_uploads_analysis](https://github.com/user-attachments/assets/49f737b8-1a3f-423a-b6e8-b4d319ff6764)
+
+
+# Discovery
+
+- What did we learn?
+
+We discovered that
+
+1. Jason Derulo, Carlos Feria and Khabane lame are the Influencers with the most followers
+2. Charli d'amelio, Barstool Sports and ESPN are the Influencers with the most likes on Tikok
+3. ESPN, Ondy Mikula and Netflix are the influencers with the most uploads
+4. Entertainment influencers are useful for broader reach, as the account posting consistently on their platforms and generating the most engagement are focus on entertainment and music
