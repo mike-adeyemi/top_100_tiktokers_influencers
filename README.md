@@ -413,8 +413,7 @@ Here are the key questions we need to answer for our marketing client:
 2. Which 3 Influencers have uploaded the most videos?
 3. Which 3 Influencers have the most likes?
 4. Which 3 channels have the highest average likes per video?
-5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+5. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
 ### 1. Who are the top 10 Influencer with the most followers?
 
@@ -453,7 +452,7 @@ Here are the key questions we need to answer for our marketing client:
 |IShowSpeed|	10.43|
 
 
-### 9. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+### 5. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 |Rank|	Channel Name|	Subscriber Engagement Rate|
 |-|-|-|
 |1|	IShowSpeed |	1,396,153.85|
@@ -462,10 +461,10 @@ Here are the key questions we need to answer for our marketing client:
 
 ### Notes
 
-For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client, which are the YouTube channels wuth the most
+For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client, which are the Tiktok influencers with the most
 
-- subscribers
-- total views
+- followers
+- total Likes
 - videos uploaded
 
 ## Validation
@@ -551,8 +550,8 @@ Best option from category: Khabane lame
   ORDER BY 
   net_profit DESC
 	
-
   ```
+
 ##### Output
 
 ![total_followers_analysis](https://github.com/user-attachments/assets/de5e323f-8005-410a-83d4-481959c7cd8e)
