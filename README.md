@@ -39,52 +39,34 @@ The marketing team struggles to identify high-impact TikTok influencers due to i
   
 To develop a data-driven dashboard that ranks top-performing TikTok influencers and provides actionable insights for optimizing marketing collaborations and campaign effectiveness.
 
-
-To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
-
 The dashboard should display the top TikTok influencers, ranked based on:
 
-- Followers count - Total number of followers
-- Total uploads - The overall number of uploads
-- Average likes per upload - The Average number of likes receives per upload.
-- Engagement rate - Measured by the ratio of likes to followers.
+- **Followers Count** – Total number of followers
+- **Total Uploads** – The overall number of uploads
+- **Average Likes per Upload** – The average number of likes received per upload 
+- **Engagement Rate** – Measured by the ratio of likes to followers
 
-
-The data-driven approach will enable the marketing team to make informed decisions when selecting Tiktok influencers for their campaign
+This approach will enable the marketing team to make informed decisions when selecting TikTok influencers for brand campaigns.
 
 ## User story
 
 As a Head of Marketing, I need a comprehensive ranking of top TikTok influencers based on key performance metrics to strategically select partners for brand campaigns.
 
 
-
-The dashboard should enable the identification of top-performing TikTok influencers based on key metrics, including:
-
-- Total Followers – The number of followers an influencer has.
-- Total Uploads – The overall number of uploads.
-- Average Likes per Upload – The average number of likes received per upload.
-- Engagement Rate – Measured by the ratio of likes to followers.
-
-
-This data-driven approach will help the marketing team strategically select influencers for brand campaigns and optimize marketing collaborations.
-
-
-
 # Data source
 
 - What data is needed to achieve our objective?
 
-We need data on the top UK YouTubers in 2024 that includes their
+To achieve our objectives, we need a dataset containing:
 
-- channel names
+- Influencer Name
+- Total Followers
+- Total Following
+- Total Uploads
+- Total Likes
 
-- total subscribers
+The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/taimoor888/top-100-world-ranking-tiktok-accounts-in-2025), with influencer performance metrics collected for analysis.
 
-- total views
-
-- total videos uploaded
-
-- Where is the data coming from? The data is sourced from Kaggle (an Excel extract), see here to find it.
 
 # Stages
 
@@ -97,29 +79,24 @@ We need data on the top UK YouTubers in 2024 that includes their
 
 ## Dashboard components required
 
-- What should the dashboard contain based on the requirements provided?
+- The dashboard should answer the following key questions:
 
-To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
-
-1. Who are the top 10 YouTubers with the most subscribers?
-2. Which 3 channels have uploaded the most videos?
-3. Which 3 channels have the most views?
-4. Which 3 channels have the highest average views per video?
-5. Which 3 channels have the highest views per subscriber ratio?
-6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+1. Who are the top 10 TikTok influencers with the most followers?
+2. Which 3 influencers have uploaded the most videos?
+3. Which 3 influencers have the highest average likes per upload?
+4. Which 3 influencers have the best engagement rate based on likes per follower?
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
 ## Dashboard mockup
 
-- What should it look like?
+- The visualizations will include:
 
-Some of the data visuals that may be appropriate in answering our questions include:
-
-1. Table
-2. Treemap
-3. Scorecards
-4. Horizontal bar chart
+1. Tables for ranking influencers
+2. Treemaps for high-level comparisons
+3. Scorecards for quick KPI insights
+4. Bar Charts to compare performance metrics
+ 
 
 ![dashboard mockup](https://github.com/user-attachments/assets/37b7bc31-32e3-4fad-993b-a4d9e25bb666)
 
@@ -140,15 +117,14 @@ Some of the data visuals that may be appropriate in answering our questions incl
 
 - What's the general approach in creating this solution from start to finish?
 
-1. Get the data
-2. Explore the data in Excel
-3. Load the data into SQL Server
-4. Clean the data with SQL
-5. Test the data with SQL
-6. Visualize the data in Power BI
-7. Generate the findings based on the insights
-8. Write the documentation + commentary
-9. Publish the data to GitHub Pages
+1. Load the data into Excel for an initial scan.
+2. Import the dataset into SQL Server for data cleaning.
+3. Perform necessary transformations (removing nulls, renaming columns, formatting data types).
+4. Create a SQL view to structure clean data for Power BI.
+5. Load the cleaned dataset into Power BI for visualization.
+6. Apply DAX measures to compute engagement rates and other metrics.
+7. Publish insights and document findings on GitHub.
+
 
 ## Data exploration notes
 
@@ -156,44 +132,41 @@ This is the stage where you have a scan of what's in the data, errors, inconcsis
 
 - What are your initial observations with this dataset? What's caught your attention so far?
 
-1. There are at least 4 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
-2. The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
-3. Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
-4. We have more data than we need, so some of these columns would need to be removed
+1. There are at least 6 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
+2. The first column contains the Rank ID with what appears to be index number, its not necessary, so we removed it from the datasets.
+4. We have the exact data we need for the analysis, so all the columns are retained except the Rank ID.
 
+   
 ## Data cleaning
 
-- What do we expect the clean data to look like? (What should it contain? What contraints should we apply to it?)
+The cleaned dataset should meet these conditions:
 
-The aim is to refine our dataset to ensure it is structured and ready for analysis.
+- Only relevant columns are retained.
+- No missing values in key performance fields.
+- Appropriate data types assigned to each column.
 
-The cleaned data should meet the following criteria and constraints:
-
-- Only relevant columns should be retained.
-- All data types should be appropriate for the contents of each column.
-- No column should contain null values, indicating complete data for all records.
-
-Below is a table outlining the constraints on our cleaned dataset:
+Clean Data Schema
 
 |Property	|Description|
 |--------|----------|
 |Number of Rows|	100|
-|Number of Columns	|4|
+|Number of Columns	|5|
 
 And here is a tabular representation of the expected schema for the clean data:
 
 |Column Name	|Data Type	|Nullable|
 |------------|-----------|---------|
-|channel_name|	VARCHAR|	NO|
-|total_subscribers|	INTEGER|	NO|
-|total_views	|INTEGER|	NO|
-|total_videos|	INTEGER	|NO|
+|Username |	NVARCHAR|NO|
+|total_followers|INT|NO|
+|total_following|SMALLINT|NO|
+|total_uploads|	SMALLINT|NO|
+|Total Likes |	BIGINT	|NO|
 
 - What steps are needed to clean and shape the data into the desired format?
 
 1. Remove unnecessary columns by only selecting the ones you need
-2. Extract Youtube channel names from the first column
-3. Rename columns using aliases
+2. Extract characters with ?? in each rows that represent emoji from the Tiktok Username
+3. Rename the characters of each rows
 
 ### Transform the data
 
