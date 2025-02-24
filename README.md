@@ -523,13 +523,55 @@ Campaign idea = product placement
   
 Best option from category: Khabane lame
 
-##### Output
+##### SQL Query
 
 ```sql
+/*
+  1. Define Variable
+  2. Create a CTE that rounds the average views per videos 
+  3. Select the columns that are required for the analysis
+  4. fliter the result by the tiktokers influencer with the highest followers bases
+  5. Order by net_profit (from highest to lowest)
+  */
+
+  -- 1. Define Variable
+  Declare @conversionRate FLOAT = 0.02;		-- Conversion Rate @ 2%
+  Declare @ProductCost MONEY = 5.0;			-- Product Rate @ $5
+  Declare @CampaignCost MONEY = 50000.0;		-- Campaign Cost @ 50,000
+
+  --2. Create a CTE that rounds the average views per videos 
+  WITH InfluencerName AS (
+  SELECT Username,
+		total_followers,
+		total_uploads,
+		total_likes,
+		ROUND((CAST(total_likes AS FLOAT) / total_uploads), -4) AS rounded_avg_likes_uploads
+	FROM 
+		dbo.view_tiktokers_2025
+	)
+
+  -- 3. Select the columns that are required for the analysis
+  SELECT 
+  Username,
+  rounded_avg_likes_uploads,
+  (rounded_avg_likes_uploads * @conversionRate) AS potential_unit_sold_per_upload,
+  (rounded_avg_likes_uploads * @conversionRate * @ProductCost) AS potential_revenue_per_upload,
+  (rounded_avg_likes_uploads * @conversionRate * @ProductCost) - @CampaignCost as net_profit
+  FROM InfluencerName
 
 
-```
-##### Sql query
+  -- 4. fliter by tiktokers influencers 
+  WHERE Username IN ('Jason Derulo', 'Carlos Feria', 'Khabane lame') 
+
+
+  -- 5. Order by net_profit (from highest to lowest)
+  ORDER BY 
+  net_profit DESC
+	
+
+  ```
+##### Output
+
 ![total_followers_analysis](https://github.com/user-attachments/assets/de5e323f-8005-410a-83d4-481959c7cd8e)
 
 ### 2. Tiktokers influencers with the most likes
@@ -566,6 +608,58 @@ Campaign idea =  Influencer marketing
   
 Best option from category: Charli d'amelio
 
+#### SQL Query
+
+```sql
+/*
+  1. Define Variable
+  2. Create a CTE that rounds the total likes per influencer
+  3. Select the columns that are required for the analysis
+  4. fliter the result by the tiktokers influencer with the highest followers bases
+  5. Order by net_profit (from highest to lowest)
+  */
+
+   -- 1. Define Variable
+  Declare @conversionRate FLOAT = 0.02;		-- Conversion Rate @ 2%
+  Declare @ProductCost MONEY = 5.0;			-- Product Rate @ $5
+  Declare @CampaignCost MONEY = 50000.0;		-- Campaign Cost @ 50,000
+
+-- 2. Create a CTE that rounds the total likes per influence
+WITH CTE_Tiktokers AS (
+  SELECT 
+    Username,
+    total_followers,
+	total_likes,
+	ROUND((CAST(total_likes AS FLOAT) / total_uploads), -4) AS rounded_avg_likes_uploads,
+    total_uploads
+  FROM 
+    view_tiktokers_2025
+)
+
+-- 3. Select the columns that are required for the analysis
+
+SELECT 
+  Username,
+  	total_likes,
+	rounded_avg_likes_uploads,
+  (	rounded_avg_likes_uploads * @conversionRate) AS potential_unit_sold_of_influencer_likes,
+  (rounded_avg_likes_uploads * @conversionRate * @ProductCost) AS potential_revenue_of_influencer_likes,
+  (rounded_avg_likes_uploads * @conversionRate * @ProductCost) - @CampaignCost AS net_profit
+FROM 
+  CTE_Tiktokers
+
+-- 4. fliter the result by the tiktokers influencer with the highest followers bases
+
+	WHERE Username IN ('Charli d''amelio', 'Barstool Sports', 'ESPN')
+
+-- 5. Order by net_profit (from highest to lowest)
+	ORDER BY 
+		net_profit DESC
+```
+##### Output
+
+![total_likes analysis](https://github.com/user-attachments/assets/2ac07281-7e74-4457-a8eb-489115a347de)
+
 
 ### 3. Tiktokers influencers with the most uploads Analysis
 
@@ -601,4 +695,52 @@ Campaign idea = sponsored video series
   
 Best option from category: None
 
+##### SQL Query
 
+```sql
+/*
+  
+  1. Define Variable
+  2. Create a CTE that rounds the total uploads
+  3. Select the columns that are required for the analysis
+  4. fliter the result by the tiktokers influencer with the highest followers bases
+  5. Order by net_profit (from highest to lowest)
+  
+  */
+
+  -- 1. Define Variable
+  Declare @conversionRate FLOAT = 0.02;		-- Conversion Rate @ 2%
+  Declare @ProductCost MONEY = 5.0;			-- Product Rate @ $5
+  Declare @CampaignCost MONEY = 50000.0;		-- Campaign Cost @ 50,000
+
+
+  --   2. Create a CTE that rounds the total uploads
+
+  WITH CTE_Tiktokers AS (
+  SELECT 
+    Username,
+    total_followers,
+    total_uploads,
+    ROUND((CAST(total_likes AS FLOAT) / total_uploads), -4) AS rounded_avg_likes_for_all_uploads
+  FROM 
+    view_tiktokers_2025
+)
+SELECT 
+  Username,
+  rounded_avg_likes_for_all_uploads,
+  (rounded_avg_likes_for_all_uploads * @conversionRate) AS potential_unit_sold_per_upload,
+  (rounded_avg_likes_for_all_uploads * @conversionRate * @ProductCost) AS potential_revenue_per_upload,
+  (rounded_avg_likes_for_all_uploads * @conversionRate * @ProductCost) - @CampaignCost AS net_profit
+FROM 
+  CTE_Tiktokers
+
+-- 4. fliter the result by the tiktokers influencer with the highest followers bases
+	WHERE Username IN ('ESPN', 'Ondy Mikula', 'Netflix')
+
+-- 5. Order by net_profit (from highest to lowest)
+	ORDER BY 
+		net_profit DESC
+```
+
+##### Output
+![total_uploads_analysis](https://github.com/user-attachments/assets/49f737b8-1a3f-423a-b6e8-b4d319ff6764)
