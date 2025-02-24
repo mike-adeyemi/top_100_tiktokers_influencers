@@ -3,6 +3,7 @@
 ![Excel-powerbi](https://github.com/user-attachments/assets/26a6c103-cf75-4ae9-86d4-7f29529f7018)
 
 
+
 # Table of contents
 
 - [Objective](Objective)
@@ -497,7 +498,30 @@ Campaign idea = product placement
 
 - Average likes per Uploads = 1.29 million
 - Product cost = £5
-- Potential units sold per video = 6.92 million x 2% conversion rate = 138,400 units sold
-- Potential revenue per video = 138,400 x $5 = $692,000
-- Campaign cost (one-time fee) = $50,000
-- Net profit = $692,000 - $50,000 = $642,000
+- Potential units sold per upload = 1.29 million x 2% conversion rate = 25,800 units sold
+- Potential revenue per upload = 25,800 x £5 = £129,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £129,000 - £50,000 = £79,000**
+
+2. Carlos Feria
+
+- Average likes per Uploads = 440,000
+- Product cost = £5
+- Potential units sold per upload = 440,000 x 2% conversion rate = 25,800 units sold
+- Potential revenue per upload = 8,800 x £5 = £44,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £44,000  - £50,000 = -£6,000**
+
+
+3. Khabane lame
+
+- Average likes per Uploads = 2 million
+- Product cost = £5
+- Potential units sold per upload = 2 million x 2% conversion rate =  40,000 units sold
+- Potential revenue per upload = 40,000 x £5 = £200,000
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £200,000  - £50,000 = £150,000**
+  
+Best option from category: Khabane lame
+
+
