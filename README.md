@@ -1,4 +1,4 @@
-# Data Portfolio: Excel to Power BI
+![image](https://github.com/user-attachments/assets/2f481f6f-5a72-4bfe-9dc8-8f3009cf17ae)![image](https://github.com/user-attachments/assets/a25a79ed-b7b8-4390-bfdf-d811bbd3e947)# Data Portfolio: Excel to Power BI
 
 
 # Table of contents
@@ -416,55 +416,49 @@ Here are the key questions we need to answer for our marketing client:
 5. Which 3 channels have the highest views per subscriber ratio?
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
-### 1. Who are the top 10 YouTubers with the most subscribers?
+### 1. Who are the top 10 Influencer with the most followers?
 
-|Rank|	Channel Name	|Subscribers (M)|
+|Rank|	Influencer	|Subscribers (M)|
 |----|--------|------|
-|1	|NoCopyrightSounds|	33.60|
-|2	|DanTDM	|28.60|
-|3|	Dan Rhodes|	26.50|
-|4|	Miss Katy	|24.50|
-|5|	Mister| Max	|24.40|
-|6|	KSI	|24.10|
-|7|	Jelly|	23.50|
-|8|	Dua Lipa	|23.30|
-|9|	Sidemen	|21.00|
-|10	|Ali-A	|18.90|
+|1	| Jason Derulo |	652.20|
+|2	|Carlos Feria	|468.00|
+|3|	Khabane lame|	162.40|
+|4|	Charli d'amelio	|155.70|
+|5|	MrBeast	|107.50|
+|6|	Bella Poarch	|94.30|
+|7|	Addison Rae|	88.50|
+|8|	Tiktok	|83.80|
+|9|	Kimberly Loaiza	|83.10|
+|10	|Zach King |82.10|
 
-### 2. Which 3 channels have uploaded the most videos?
-|Rank|	Channel Name|	Videos Uploaded|
+### 2. Which 3 Influencer have uploaded the most uploads?
+|Rank|	Influencer |	Videos Uploaded|
 |-------|--|--|
-|1	|GRM Daily	|14,696|
-|2	|Manchester City	|8,248|
-|3	|Yogscast|	6,435|
+|1	|ESPN	|31,600|
+|2	|Ondy Mikula	|13,200|
+|3	|Netflix|	6,978|
 
-### 4. Which 3 channels have the most views?
-|Rank	|Channel Name	|Total Views (B)|
+### 3. Which 3 Influencer have the most likes?
+|Rank	|Influencer	|Total likes (B)|
 |-|-|-|
-|1|	DanTDM	|19.78|
-|2	|Dan Rhodes	|18.56|
-|3	|Mister Max	|15.97|
+|1|	Charli d'amelio	|11.80|
+|2	|Barstool Sports |8.20|
+|3	|ESPN	|6.40|
 
-### 5. Which 3 channels have the highest average views per video?
+### 4. Which 3 channels have the highest average likes per video?
 |Channel Name	|Averge Views per Video (M)|
 |-|-|
-|Mark Ronson	|32.27|
-|Jessie J	|5.97|
-|Dua Lipa|	5.76|
+|Addison Rae|16.35|
+|Kyle thomas |11.81|
+|IShowSpeed|	10.43|
 
-### 7. Which 3 channels have the highest views per subscriber ratio?
-|Rank	|Channel Name|	Views per Subscriber|
-|-|-|-|
-|1	|GRM Daily	|1185.79|
-|2|	Nickelodeon	|1061.04|
-|3|	Disney Junior UK|	1031.97|
 
 ### 9. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 |Rank|	Channel Name|	Subscriber Engagement Rate|
-|1|	Mark Ronson|	343,000|
 |-|-|-|
-|2|	Jessie J|	110,416.67|
-|3	|Dua Lipa|	104,954.95|
+|1|	IShowSpeed |	1,396,153.85|
+|2|	BILLIE EILISH |	991,428.57|
+|3	|Jason Derulo|	647,666.34|
 
 ### Notes
 
