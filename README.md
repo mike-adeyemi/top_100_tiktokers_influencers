@@ -166,7 +166,7 @@ And here is a tabular representation of the expected schema for the clean data:
 
 1. Remove unnecessary columns by only selecting the ones you need
 2. Extract characters with ?? in each rows that represent emoji from the Tiktok Username
-3. Rename the characters of each rows
+3. Captalize the first characters of each rows into proper from the Username
 
 ### Transform the data
 
@@ -178,7 +178,7 @@ And here is a tabular representation of the expected schema for the clean data:
 3. Rename all column username to Upper e.g MrBeast, dixie to Dixie only!!!	
 */
 
---		1.Remove the unneccessary columns by selecting the one we need
+-- 1.Remove the unneccessary columns by selecting the one we need
 SELECT 
      Username,
      total_followers,
@@ -189,7 +189,6 @@ FROM
     top_100_tiktokers_2025;
 
 ```
-
 
 ### Create the SQL view
 
@@ -239,9 +238,11 @@ LTRIM(RTRIM(REPLACE(REPLACE(Username, '?', ''), ' ', ' ')));
 
 # Testing
 - What data quality and validation checks are you going to create?
+
 Here are the data quality tests conducted:
 
-## Row count check
+## Row Count Validation
+
 
 ```sql
 /*
@@ -256,9 +257,11 @@ FROM
    view_tiktokers_2025;
 
 ```
+
 ![row_count_check](https://github.com/user-attachments/assets/5d80bded-4881-45bd-aee7-83c9ff9a8a0b)
 
-## Column count check
+## Column Count Validation
+
 
 ### SQL query
 
@@ -332,9 +335,13 @@ HAVING COUNT(*) > 1;
 ## Results
 - What does the dashboard look like?
 
+1. Top 10 Influencers ranked by follower count.
+2. Highest engagement rates to assess influencer impact.
+3. Average likes per uploads
+
+   
 https://github.com/user-attachments/assets/2ee2752f-a72d-467c-8f79-dafa962d3213
 
-This shows the Top UK Youtubers in 2024 so far.
 
 # DAX Measures
 
@@ -365,7 +372,7 @@ VAR totalUploads = SUM(view_tiktokers_2025[total_uploads])
 
 RETURN totalUploads
 ```
-#### Average Likes per Upload (M)
+### Average Likes per Upload (M)
 ```sql
 Average Likes per Upload (M) = 
 VAR sumOfTotalLikes = SUM(view_tiktokers_2025[total_likes])
@@ -375,7 +382,7 @@ VAR finalAvgLikesPerUpload = DIVIDE(avgLikesPerUpload, 1000000, BLANK())
 
 RETURN finalAvgLikesPerUpload
 ```
-#### Followers Engagement Rate
+### Followers Engagement Rate
 ```sql
 Followers Engagement Rate = 
 VAR sumOfTotalFollowers = SUM(view_tiktokers_2025[total_followers])
@@ -384,7 +391,7 @@ VAR followersEngRate = DIVIDE(sumOfTotalFollowers, sumOfTotalUploads, BLANK())
 
 RETURN followersEngRate
 ```
-#### Likes Per Follower
+### Likes Per Follower
 ```sql
 Likes Per Follower = 
 VAR sumOfTotalLikes = SUM(view_tiktokers_2025[total_likes])
@@ -402,10 +409,10 @@ For this analysis, we're going to focus on the questions below to get the inform
 
 Here are the key questions we need to answer for our marketing client:
 
-1. Who are the top 10 YouTubers with the most subscribers?
-2. Which 3 channels have uploaded the most videos?
-3. Which 3 channels have the most views?
-4. Which 3 channels have the highest average views per video?
+1. Who are the top 10 Influencer with the most followers?
+2. Which 3 Influencers have uploaded the most videos?
+3. Which 3 Influencers have the most likes?
+4. Which 3 channels have the highest average likes per video?
 5. Which 3 channels have the highest views per subscriber ratio?
 6. Which 3 channels have the highest subscriber engagement rate per video uploaded?
 
