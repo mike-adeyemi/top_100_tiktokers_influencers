@@ -1,6 +1,4 @@
-![image](https://github.com/user-attachments/assets/95bda5d1-105a-47d7-b1ea-0a9bb8335202)# Data Portfolio: Excel to Power BI
-
-![Excel-powerbi](https://github.com/user-attachments/assets/fe395991-04a7-415b-9741-456f153952d9)
+# Data Portfolio: Excel to Power BI
 
 
 # Table of contents
@@ -33,32 +31,43 @@
 
 # Objective
 
--  What is the key pain point?
+#### Key Pain Point?
 
-
-The Head of Marketing wants to find out who the top YouTubers are in 2024 to decide on which YouTubers would be best to run marketing campaigns throughout the rest of the year.
+The marketing team struggles to identify high-impact TikTok influencers due to inconsistent insights and an overwhelming amount of data.
 
 -  What is the ideal solution?
+  
+To develop a data-driven dashboard that ranks top-performing TikTok influencers and provides actionable insights for optimizing marketing collaborations and campaign effectiveness.
 
 
 To create a dashboard that provides insights into the top UK YouTubers in 2024 that includes their
 
-- subscriber count
-- total views
-- total videos, and
-- engagement metrics
+The dashboard should display the top TikTok influencers, ranked based on:
 
-This will help the marketing team make informed decisions about which YouTubers to collaborate with for their marketing campaigns.
+- Followers count - Total number of followers
+- Total uploads - The overall number of uploads
+- Average likes per upload - The Average number of likes receives per upload.
+- Engagement rate - Measured by the ratio of likes to followers.
+
+
+The data-driven approach will enable the marketing team to make informed decisions when selecting Tiktok influencers for their campaign
 
 ## User story
 
-As the Head of Marketing, I want to use a dashboard that analyses YouTube channel data in the UK .
+As a Head of Marketing, I need a comprehensive ranking of top TikTok influencers based on key performance metrics to strategically select partners for brand campaigns.
 
 
-This dashboard should allow me to identify the top performing channels based on metrics like subscriber base and average views.
+
+The dashboard should enable the identification of top-performing TikTok influencers based on key metrics, including:
+
+- Total Followers – The number of followers an influencer has.
+- Total Uploads – The overall number of uploads.
+- Average Likes per Upload – The average number of likes received per upload.
+- Engagement Rate – Measured by the ratio of likes to followers.
 
 
-With this information, I can make more informed decisions about which Youtubers are right to collaborate with, and therefore maximize how effective each marketing campaign is.
+This data-driven approach will help the marketing team strategically select influencers for brand campaigns and optimize marketing collaborations.
+
 
 
 # Data source
