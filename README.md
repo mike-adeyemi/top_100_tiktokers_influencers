@@ -1,7 +1,6 @@
 # Data Portfolio: Excel to Power BI
 
-![Excel-powerbi](https://github.com/user-attachments/assets/26a6c103-cf75-4ae9-86d4-7f29529f7018)
-
+![Excel-powerbi](https://github.com/user-attachments/assets/fe395991-04a7-415b-9741-456f153952d9)
 
 
 # Table of contents
@@ -524,4 +523,72 @@ Campaign idea = product placement
   
 Best option from category: Khabane lame
 
+### 2. Tiktokers influencers with the most likes
+
+Campaign idea =  Influencer marketing
+
+1. Charli d'amelio
+
+- Average likes per Uploads = 4.2 million
+- Product cost = £5
+- Potential units sold per upload = 4.2 million x 2% conversion rate = 84,000 units sold
+- Potential revenue per upload = 84,000 x £5 = £420,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £420,000 - £50,000 = £370,000**
+
+2. Ondy Mikula
+
+- Average likes per Uploads = 1.18 million
+- Product cost = £5
+- Potential units sold per upload = 1.18 million x 2% conversion rate = 23,600 units sold
+- Potential revenue per upload = 23,600 x £5 = £118,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £118,000   - £50,000 = £68,000**
+
+
+3. ESPN
+
+- Average likes per Uploads = 200,000
+- Product cost = £5
+- Potential units sold per upload = 200,000 x 2% conversion rate =  4,000 units sold
+- Potential revenue per upload = 4,000 x £5 = £20,000
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £20,000  - £50,000 = -£30,000**
+  
+Best option from category: Charli d'amelio
+
+
+### 3. Tiktokers influencers with the most uploads Analysis
+
+Campaign idea = sponsored video series
+
+1. ESPN
+
+- Average likes per Uploads = 200,000
+- Product cost = £5
+- Potential units sold per upload = 200,000 million x 2% conversion rate = 4,000 units sold
+- Potential revenue per upload = 4,000 x £5 = £20,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £20,000 - £50,000 = -£30,000**
+
+2. Ondy Mikula
+
+- Average likes per Uploads = 50,000
+- Product cost = £5
+- Potential units sold per upload = 50,000 x 2% conversion rate = 1,000 units sold
+- Potential revenue per upload = 1,000 x £5 = £5,000 
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £5,000  - £50,000 = -£45,000**
+
+
+3. Netflix
+
+- Average likes per Uploads = 170,000
+- Product cost = £5
+- Potential units sold per upload = 170,000 x 2% conversion rate =  3,400 units sold
+- Potential revenue per upload = 3,040 x £5 = £17,000
+- Campaign cost (one-time fee) = £50,000
+- **Net profit = £17,000  - £50,000 = -£33,000**
+  
+Best option from category: None
 
