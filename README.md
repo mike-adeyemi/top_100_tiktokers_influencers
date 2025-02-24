@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/2f481f6f-5a72-4bfe-9dc8-8f3009cf17ae)![image](https://github.com/user-attachments/assets/a25a79ed-b7b8-4390-bfdf-d811bbd3e947)# Data Portfolio: Excel to Power BI
+Portfolio: Excel to Power BI
 
 
 # Table of contents
