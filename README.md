@@ -1,8 +1,5 @@
 # Portfolio: Excel to Power BI
-
-![Excel-powerbi](https://github.com/user-attachments/assets/5d127bab-b8a5-450b-8ac4-30eac3a83f2f)
-
-
+![Excel-powerbi](https://github.com/user-attachments/assets/ea9600a6-17fd-49c2-9c76-798d6c891daa)
 # Table of contents
 
 - [Objective](Objective)
@@ -740,4 +737,110 @@ We discovered that
 2. Charli d'amelio, Barstool Sports and ESPN are the Influencers with the most likes on Tikok
 3. ESPN, Ondy Mikula and Netflix are the influencers with the most uploads
 4. Entertainment influencers are useful for broader reach, as the account posting consistently on their platforms and generating the most engagement are focus on entertainment and music
+
+
+# Discovery:
+**Key Insights from Data Analysis:**
+
+**1. Top TikTok Influencers by Followers:**
+
+- **Jason Derulo** leads with 652.2 million followers.
+- **Carlos Feria** follows closely with 468 million followers.
+- **Khabane Lame** holds the third spot with 162.4 million followers.
+
+**2. Top TikTok Influencers by Likes:**
+
+- **Charli D'Amelio** stands out with 11.8 billion likes.
+- **Barstool Sports** ranks second with 8.2 billion likes.
+- **ESPN** follows in third with 6.4 billion likes.
+
+**3. Top TikTok Influencers by Uploads:**
+
+- **ESPN** leads with 31,600 uploads.
+- **Ondy Mikula** has uploaded 13,200 videos.
+- **Netflix** ranks third with 6,978 uploads.
+
+**4. Top TikTok Influencers by Engagement:**
+
+- **IShowSpeed** has the highest engagement rate with 1.39 million engagement per upload.
+- **Billie Eilish** follows with 991,428 engagements.
+- **Jason Derulo** ranks third with 647,666 engagements.
+
+We discovered that
+
+- Influencers like **Jason Derulo**, **Carlos Feria**, and **Khabane Lame** have a vast audience base and high potential for reaching a broad demographic.
+- **Charli D'Amelio**, **Barstool Sports**, and **ESPN** provide massive engagement opportunities due to their high number of likes and videos.
+- **ESPN** and **Ondy Mikula** are the top players in terms of frequent uploads.
+
+# Recommendation
+
+### For a High-Impact Marketing Campaign:
+
+- **Focus on Broad Reach:** Partner with influencers like **Jason Derulo**, **Carlos Feria**, and **Khabane Lame**. These influencers have an extensive follower base, ensuring maximum visibility for your brand.
+- **Leverage Engagement**: Collaborate with Charli D'Amelio and Barstool Sports for a high level of audience interaction, making your campaign go viral.
+- **Maximize Video Engagement**: Focus on influencers like **IShowSpeed** who have high engagement rates, ensuring that your message resonates with their audience.
+- **Content Frequency**: Work with high-upload influencers like ESPN and Ondy Mikula to maintain consistent visibility over time.
+
+### Campaign Focus:
+
+1. **Product Placement** with influencers who have the most followers (e.g., Jason Derulo, Carlos Feria).
+2. **Influencer Marketing** with influencers generating high engagement (e.g., Charli D'Amelio, Barstool Sports).
+3. **Sponsored Series** targeting frequent uploaders (e.g., ESPN, Netflix).
+
+## Potential ROI:
+
+**Influencers with Best ROI Based on Followers:**
+
+- **Jason Derulo (Top Choice):**
+  - Average Likes per Upload: 1.29 million.
+  - Campaign Cost: £50,000.
+  - **Potential Revenue Per Upload:** £129,000 (from 1.29 million likes, 2% conversion = 25,800 units sold).
+  - **Net Profit:** £79,000.
+
+- **Carlos Feria:**
+  - Average Likes per Upload: 440,000.
+  - **Net Profit:** -£6,000 (unable to cover campaign cost).
+    
+- **Khabane Lame:**
+  - Average Likes per Upload: 2 million.
+  - **Net Profit:** £150,000 (Highest potential return).
+
+**Best ROI from Category:**
+- **Khabane Lame** shows the highest net profit, making him the most lucrative influencer for product placement campaigns.
+
+**Influencers with Best ROI Based on Likes:**
+- **Charli D'Amelio (Top Choice):**
+  - Average Likes per Upload: 4.2 million.
+  - **Net Profit:** £370,000 (highest profit).
+
+- **Ondy Mikula:**
+  - Average Likes per Upload: 1.18 million.
+  - Net Profit: £68,000.
+
+- **ESPN:**
+  - Average Likes per Upload: 200,000.
+  - Net Profit: -£30,000 (negative ROI).
+    
+**Best ROI from Category:**
+- **Charli D'Amelio** provides the highest ROI based on total likes, making her a prime candidate for influencer marketing campaigns.
+
+**Influencers with Best ROI Based on Uploads:**
+- **ESPN (Top Choice):** High upload frequency, though lower net profit due to lower engagement.
+ - **Net Profit:** -£30,000.
+
+
+**Best ROI from Category:**
+
+- None of the top influencers with the highest uploads show significant profit based on the current data. However, more frequent uploads can be beneficial for long-term campaigns if engagement can be increased.
+
+
+# Action Plan:
+
+**1. Select Top Influencers:**
+
+- **Short-Term:** Choose **Jason Derulo** and **Charli D'Amelio** for large-scale campaigns that require high visibility and engagement.
+- **Long-Term:** Collaborate with **Khabane Lame** for sustained high-impact campaigns.
+- **Engagement-Focused:** Partner with influencers like **IShowSpeed** for highly engaged content.
+
+
 
