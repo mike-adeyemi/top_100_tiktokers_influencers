@@ -1,4 +1,6 @@
-Portfolio: Excel to Power BI
+# Portfolio: Excel to Power BI
+
+![Excel-powerbi](https://github.com/user-attachments/assets/5d127bab-b8a5-450b-8ac4-30eac3a83f2f)
 
 
 # Table of contents
