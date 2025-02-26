@@ -25,8 +25,8 @@
   - [Discovery](#discovery)
 -[Recommendations](#recommendations)
   - [Potential ROI](#potential-roi)
-  - [Potential Courses of Actions](#potential-Courses-of-Actions)
-- [Conclusion](#conclusion)
+  - [Campaign Focus](#campaign-focus)
+- [Action Plan](#action-plan)
 
 # Objective
 
@@ -727,19 +727,6 @@ FROM
 ![total_uploads_analysis](https://github.com/user-attachments/assets/49f737b8-1a3f-423a-b6e8-b4d319ff6764)
 
 
-# Discovery
-
-- What did we learn?
-
-We discovered that
-
-1. Jason Derulo, Carlos Feria and Khabane lame are the Influencers with the most followers
-2. Charli d'amelio, Barstool Sports and ESPN are the Influencers with the most likes on Tikok
-3. ESPN, Ondy Mikula and Netflix are the influencers with the most uploads
-4. Entertainment influencers are useful for broader reach, as the account posting consistently on their platforms and generating the most engagement are focus on entertainment and music
-
-
-# Discovery:
 **Key Insights from Data Analysis:**
 
 **1. Top TikTok Influencers by Followers:**
@@ -766,20 +753,21 @@ We discovered that
 - **Billie Eilish** follows with 991,428 engagements.
 - **Jason Derulo** ranks third with 647,666 engagements.
 
-We discovered that
+# Discovery
 
-- Influencers like **Jason Derulo**, **Carlos Feria**, and **Khabane Lame** have a vast audience base and high potential for reaching a broad demographic.
-- **Charli D'Amelio**, **Barstool Sports**, and **ESPN** provide massive engagement opportunities due to their high number of likes and videos.
-- **ESPN** and **Ondy Mikula** are the top players in terms of frequent uploads.
+We discovered that
+1. Influencers like **Jason Derulo**, **Carlos Feria**, and **Khabane Lame** have a vast audience base and high potential for reaching a broad demographic.
+2. **Charli D'Amelio**, **Barstool Sports**, and **ESPN** provide massive engagement opportunities due to their high number of likes and videos.
+3. **ESPN** and **Ondy Mikula** are the top players in terms of frequent uploads.
+4. Entertainment influencers are useful for broader reach, as the account posting consistently on their platforms and generating the most engagement are focus on entertainment and music
 
 # Recommendation
 
 ### For a High-Impact Marketing Campaign:
-
 - **Focus on Broad Reach:** Partner with influencers like **Jason Derulo**, **Carlos Feria**, and **Khabane Lame**. These influencers have an extensive follower base, ensuring maximum visibility for your brand.
 - **Leverage Engagement**: Collaborate with Charli D'Amelio and Barstool Sports for a high level of audience interaction, making your campaign go viral.
 - **Maximize Video Engagement**: Focus on influencers like **IShowSpeed** who have high engagement rates, ensuring that your message resonates with their audience.
-- **Content Frequency**: Work with high-upload influencers like ESPN and Ondy Mikula to maintain consistent visibility over time.
+- **Content Frequency**: Work with high-upload influencers like **ESPN** and **Ondy Mikula** to maintain consistent visibility over time.
 
 ### Campaign Focus:
 
@@ -805,24 +793,38 @@ We discovered that
   - Average Likes per Upload: 2 million.
   - **Net Profit:** £150,000 (Highest potential return).
 
+
 **Best ROI from Category:**
 - **Khabane Lame** shows the highest net profit, making him the most lucrative influencer for product placement campaigns.
 
+
+
 **Influencers with Best ROI Based on Likes:**
+
+
 - **Charli D'Amelio (Top Choice):**
   - Average Likes per Upload: 4.2 million.
   - **Net Profit:** £370,000 (highest profit).
+
+
 
 - **Ondy Mikula:**
   - Average Likes per Upload: 1.18 million.
   - Net Profit: £68,000.
 
+
+
 - **ESPN:**
   - Average Likes per Upload: 200,000.
   - Net Profit: -£30,000 (negative ROI).
+
+
     
 **Best ROI from Category:**
+
 - **Charli D'Amelio** provides the highest ROI based on total likes, making her a prime candidate for influencer marketing campaigns.
+
+
 
 **Influencers with Best ROI Based on Uploads:**
 - **ESPN (Top Choice):** High upload frequency, though lower net profit due to lower engagement.
@@ -830,14 +832,12 @@ We discovered that
 
 
 **Best ROI from Category:**
-
 - None of the top influencers with the highest uploads show significant profit based on the current data. However, more frequent uploads can be beneficial for long-term campaigns if engagement can be increased.
 
 
 # Action Plan:
 
 **1. Select Top Influencers:**
-
 - **Short-Term:** Choose **Jason Derulo** and **Charli D'Amelio** for large-scale campaigns that require high visibility and engagement.
 - **Long-Term:** Collaborate with **Khabane Lame** for sustained high-impact campaigns.
 - **Engagement-Focused:** Partner with influencers like **IShowSpeed** for highly engaged content.
