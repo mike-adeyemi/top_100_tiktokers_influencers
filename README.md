@@ -23,7 +23,7 @@
   - [Findings](#findings)
   - [Validation](#validation)
   - [Discovery](#discovery)
--[Recommendations](#recommendations)
+- [Recommendation](#recommendation)
   - [Potential ROI](#potential-roi)
   - [Campaign Focus](#campaign-focus)
 - [Action Plan](#action-plan)
