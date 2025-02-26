@@ -22,7 +22,7 @@
 - [Analysis](#analysis)
   - [Findings](#findings)
   - [Validation](#validation)
-  - [Insights](#key-insights-from-data-analysis)
+  - [Insights](#key-insights-from-data-analysis:)
   - [Discovery](#discovery)
 - [Recommendation](#recommendation)
   - [Potential ROI](#potential-roi)
