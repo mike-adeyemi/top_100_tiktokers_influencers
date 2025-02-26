@@ -430,6 +430,7 @@ Here are the key questions we need to answer for our marketing client:
 |10	|Zach King |82.10|
 
 ### 2. Which 3 Influencer have uploaded the most uploads?
+
 |Rank|	Influencer |	Videos Uploaded|
 |-------|--|--|
 |1	|ESPN	|31,600|
@@ -437,6 +438,7 @@ Here are the key questions we need to answer for our marketing client:
 |3	|Netflix|	6,978|
 
 ### 3. Which 3 Influencer have the most likes?
+
 |Rank	|Influencer	|Total likes (B)|
 |-|-|-|
 |1|	Charli d'amelio	|11.80|
@@ -444,6 +446,7 @@ Here are the key questions we need to answer for our marketing client:
 |3	|ESPN	|6.40|
 
 ### 4. Which 3 channels have the highest average likes per video?
+
 |Channel Name	|Averge Views per Video (M)|
 |-|-|
 |Addison Rae|16.35|
@@ -452,6 +455,7 @@ Here are the key questions we need to answer for our marketing client:
 
 
 ### 5. Which 3 channels have the highest subscriber engagement rate per video uploaded?
+
 |Rank|	Channel Name|	Subscriber Engagement Rate|
 |-|-|-|
 |1|	IShowSpeed |	1,396,153.85|
