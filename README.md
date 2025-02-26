@@ -3,14 +3,14 @@
 # Table of contents
 
 - [Objective](#objective)
-- [Data Source](#data-Source)
+- [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
   - [Mockup](#mockup)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
-  - [Data Exploration](#data-Exploration)
+  - [Data Exploration](#data-exploration)
   - [Data Cleaning](#data-Cleaning)
   - [Transform the Data](#transform-the-Data)
   - [Create the SQL View](#create-the-SQL-View)
