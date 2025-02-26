@@ -1,7 +1,7 @@
 # Portfolio: Excel to Power BI
 ![Excel-powerbi](https://github.com/user-attachments/assets/ea9600a6-17fd-49c2-9c76-798d6c891daa)
-# Table of contents
 
+# Table of contents
 - [Objective](#objective)
 - [Data Source](#data-source)
 - [Stages](#stages)
@@ -30,8 +30,7 @@
 - [Action Plan](#action-plan)
 
 # Objective
-
-#### Key Pain Point?
+### Key Pain Point?
 
 The marketing team struggles to identify high-impact TikTok influencers due to inconsistent insights and an overwhelming amount of data.
 
@@ -46,7 +45,7 @@ The dashboard should display the top TikTok influencers, ranked based on:
 - **Average Likes per Upload** – The average number of likes received per upload 
 - **Engagement Rate** – Measured by the ratio of likes to followers
 
-This approach will enable the marketing team to make informed decisions when selecting TikTok influencers for brand campaigns.
+This approach will enable the marketing team to make informed decisions when selecting TikTok influencers for brand campaigns.  
 
 ## User story
 
