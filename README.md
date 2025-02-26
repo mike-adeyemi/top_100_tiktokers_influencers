@@ -728,7 +728,7 @@ FROM
 ![total_uploads_analysis](https://github.com/user-attachments/assets/49f737b8-1a3f-423a-b6e8-b4d319ff6764)
 
 
-**Key Insights from Data Analysis**
+**Key Insights from Data Analysis:**
 
 **1. Top TikTok Influencers by Followers:**
 
