@@ -338,8 +338,8 @@ HAVING COUNT(*) > 1;
 2. Highest engagement rates to assess influencer impact.
 3. Average likes per uploads
 
-   
-https://github.com/user-attachments/assets/2ee2752f-a72d-467c-8f79-dafa962d3213
+![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/9bf345be-8ace-4eb6-a43b-91ce19b1fee8)
+
 
 
 # DAX Measures
