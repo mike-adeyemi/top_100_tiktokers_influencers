@@ -81,9 +81,9 @@ The data is sourced from an [Excel extract](https://www.kaggle.com/datasets/taim
 - The dashboard should answer the following key questions:
 
 1. Who are the top 10 TikTok influencers with the most followers?
-2. Which 3 influencers have uploaded the most videos?
-3. Which 3 influencers have the highest average likes per upload?
-4. Which 3 influencers have the best engagement rate based on likes per follower?
+2. Who are the 10 Tiktok influencers with the most likes?
+3. Influencers have the highest average likes per video?
+4. Influencers have the best engagement rate based on likes per follower?
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
