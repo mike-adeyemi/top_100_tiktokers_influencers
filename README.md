@@ -556,7 +556,6 @@ Best option from category: Khabane lame
   ```
 
 ##### Output
-
 ![total_followers_analysis](https://github.com/user-attachments/assets/de5e323f-8005-410a-83d4-481959c7cd8e)
 
 ### 2. Tiktokers influencers with the most likes
