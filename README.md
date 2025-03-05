@@ -341,6 +341,8 @@ HAVING COUNT(*) > 1;
 
 ![Untitled video - Made with Clipchamp](https://github.com/user-attachments/assets/9bf345be-8ace-4eb6-a43b-91ce19b1fee8)
 
+### Image
+![dashboard_image](https://github.com/user-attachments/assets/29206705-734a-4a56-852a-a4b585906473)
 
 
 # DAX Measures
